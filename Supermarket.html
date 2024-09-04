@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Market</title>
+    <link rel="stylesheet" href="Supermarket.css">
+     <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+     <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ 
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    
+</head>
+<body  class="container-fluid">
+    <!-- Nav bar -->
+    <nav>
+        <!-- 1st nav bar start here -->
+        <div class="navbar-top">
+                <div class="row">
+                    <nav class="navbar navbar-default">
+                    <!-- nav bar left side -->
+                            <ul class="nav navbar-nav navbar-left">
+                                <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> hello@gmail.com</a></li>
+                                <li><a href="#"><span> | </span>Free Shipping of all order $99</a></li>
+                            </ul> 
+                    <!-- nav bar right side -->
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li class="dropdown"><a data-toggle="dropdown" href="#">India <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="#">India</a></li>
+                                      <li><a href="#">USA</a></li>
+                                      <li><a href="#">UK</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                            </ul> 
+                    </nav> 
+                </div>
+        </div>          
+
+        <!-- second nav bar starts here HOME-->
+       
+    
+        <!--  nav bar center-->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>    
+        </div>
+        <!-- <ul class="nav navbar-brand">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul> -->
+     
+        <!-- <ul class="nav navbar-nav navbar-left">
+            <li><h2>OGANI</h2></li>
+
+            <ul class="list">
+                <li class="item">Home</li>
+                <li class="item">Sope</li>
+                <li class="item">Pages</li>
+                <li class="item">Blog</li>
+                <li class="item">Contact</li>
+            </ul>
+        </ul> -->
+
+        <!-- <ul class="list">
+            <li class="item">Home</li>
+            <li class="item">Sope</li>
+            <li class="item">Pages</li>
+            <li class="item">Blog</li>
+            <li class="item">Contact</li>
+        </ul> -->
+        <!-- <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-heart"></span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+        </ul>       -->
+
+        <nav class="navbar navbar-expand-sm-12 bg-light">
+            <div class="col-sm-10">
+                <ul class="navbar-left">
+                    <h1><b>OGANI</b></h1>
+                </ul>
+                <div class="collapse navbar-collapse navbars" id="collapse_target1">
+                    <div class="flex-container">
+                        <!-- <ul id="lower-nav" class="navbar-nav mr-auto order-md-8 justify-content-md-center w-100"> -->
+                            <ul class="nav-item">
+                                <ul class="nav-link" href=""><b>HOME</b></ul>
+                            </ul>
+                            <ul class="nav-item">
+                                <ul class="nav-link" href=""><b>SHOP</b></ul>
+                            </ul>
+                            <ul class="nav-item">
+                                <ul class="nav-link" href=""><b>PAGES</b></ul>
+                            </ul>
+                            <ul class="nav-item">
+                                <ul class="nav-link" href=""><b>BLOG</b></ul>
+                            </ul>
+                            <ul class="nav-item">
+                                <ul class="nav-link" href=""><b>CONTACT</b></ul>
+                            </ul>
+                    </div>
+                </div>           
+            </div>
+                        <div class="col-sm-2">
+                                        <div class="flex">  
+                                            <div class="cart">  
+                                                <ul class="carts">
+                                                    <a href="#"><span class="glyphicon glyphicon-heart"></span></a>  
+                                                    
+                                                </ul>
+                                                <ul class="carts">
+        
+                                                    <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>  
+                                                </ul>
+                                             
+                                            </div>
+                                        </div> 
+                            
+                        </div>
+                   
+ 
+        <!-- end of ogani row -->
+    </nav> 
+    <nav class="row content"> </nav>
+        <div class="row content">
+            <!-- <div class="col-sm-12"> -->
+                <div class="col-sm-2 sidenav">
+                    <div class="dropdown">
+                        <button class="btn btn-success" type="button" data-toggle="dropdown">All Departments<span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                        <li><a href="#">Fresh Meat</a></li>
+                        <li><a href="#">Vegetables</a></li>
+                        <li><a href="#">Fruits and Nuts</a></li>
+                        <li><a href="#">Fresh Barries</a></li>
+                        <li><a href="#">Ocean Foods</a></li>
+                        <li><a href="#">Buter and Eggs</a></li>
+                        <li><a href="#">Fresh Onion</a></li>
+                        <li><a href="#">Papayaya and crisps </a></li>
+                        <li><a href="#">Oatmeal</a></li>
+                        <li><a href="#">Fresh Banana</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- middle nav -->
+                <div class="col-sm-10">
+                    <div class="col-sm-10">
+                            <div class="dropdown">
+                                <button class="btn btn-success" type="button" data-toggle="dropdown">All Categories<span class="caret"></span></button> 
+                                <form class="navbar-form navbar-right" >
+                                    <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="What do you need?..">
+                                    </div>
+                                    <button type="submit" class="btn btn-success">Search</button>
+                                </form>  
+                            </div>
+                    </div>        
+
+                    <p><span class="glyphicon glyphicon-earphone"> 9966338520</span></p>
+                    <p>support 24/7 time</p>
+               
+                        <!-- <img src="Fruits-and-Vegetables.jpg" alt="fruits" width="300px" height="400px">
+                
+                        <div class="centered">
+                            <P class="text-success">F R U I T - F R E S H<p>
+                        
+                            <h1><b>Vegetable</b></h1>
+                            <h1><b>100% Organic</b></h1>
+                        
+                            <p>Free pickup and Delivary availabe</p>
+                            <button class="btn btn-success">Shop Now</button>
+                        </div>
+
+                         -->
+                            <!-- <img src="Fruits-and-Vegetables.jpg" alt="fruits" width="300px" height="400px">
+                        -->
+                
+                </div>
+            <!--   </div>
+          <div class="col-sm-2">
+                <p><span class="glyphicon glyphicon-earphone"> 9966338520</span></p>
+                <p>support 24/7 time</p>
+            </div> -->
+        </div> 
+        <!-- end of dropdowns bar -->
+         <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-sm-2">
+
+                </div>
+                <div class="col-sm-10 bg-light">
+                    <img src="Fruits-and-Vegetables.jpg" alt="fruits" width="300px" height="400px">
+                    <div class="centered">
+                        <P class="text-success">F R U I T - F R E S H<p>
+                    
+                        <h1><b>Vegetable</b></h1>
+                        <h1><b>100% Organic</b></h1>
+                    
+                        <p>Free pickup and Delivary availabe</p>
+                        <button class="btn btn-success">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div><br> 
+<!-- list items -->
+    <!-- <div class="container"> -->
+        <div class="d-flex">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="fruits">
+                            <img src="Fruits-and-Vegetables.jpg" width="80%" alt="">
+                            <p>Fresh Fruits</p>
+                        </div>    
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="fruits">
+                            <img src="Fruits-and-Vegetables.jpg" width="80%" alt="">
+                            <p>Dry Fruits</p>
+                        </div>    
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="fruits">
+                            <img src="Fruits-and-Vegetables.jpg" width="80%" alt="">
+                            <p>Vegetable</p>
+                        </div>    
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="fruits">
+                            <img src="Fruits-and-Vegetables.jpg"  width="80%" alt="" >
+                            <p>Drink Fruits</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    <!-- </div>   -->
+    
+    <!-- footer -->
+
+    <footer class="container-fluid text-center">
+        <h2>Featured Product</h2><br>
+        <ul class="nav navbar-center text-center" >
+           <b> <li class="item">All</li>
+            <li class="item">Oranges</li>
+            <li class="item">Fresh Meat</li>
+            <li class="item">Vegetable</li>
+            <li class="item">Fastfood</li></b>
+        </ul>
+        <br><br>
+        <div class="col-sm-3">
+            <div class="footer"></div>
+                <img src="meat.jpg" class="img-responsive" style="width:70%" height="50%"  alt="Image">
+            </div>
+          </div>
+          <div class="col-sm-3"> 
+            <div class="footer"></div>
+                <img src="banana.jpg" class="img-responsive" style="width:70%" height="10%"  alt="Image">
+            </div>  
+          </div>
+          <div class="col-sm-3">
+            <div class="footer"></div>
+                <img src="guava.jpeg" class="img-responsive" style="width:70%" height="50%"  alt="Image">
+            </div>
+          </div>
+          <div class="col-sm-3"> 
+            <div class="footer">
+                 <img src="watermelon.jpg" class="img-responsive" style="width:70%" height="50%" alt="Image">
+            </div>
+          </div>
+        
+      </footer>
+
+
+      <br><br>
+       
+</body>
+</html>
